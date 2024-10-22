@@ -16,8 +16,7 @@ class Loginpage extends StatelessWidget {
             
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
-              TextFormField(decoration: InputDecoration( border: OutlineInputBorder(), hintText: "PhoneNumber" ),),
+               TextFormField(decoration: InputDecoration( border: OutlineInputBorder(), hintText: "PhoneNumber" ),),
               SizedBox(height: 10,),
           
               ElevatedButton(onPressed: (){}, child: Text("Get OTP")),
